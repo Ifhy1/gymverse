@@ -89,7 +89,7 @@ nav a:hover {
 }
 
 .btn-primary, .btn-secondary {
-  padding: 12px 22px;
+  padding: 5px 10px;
   border-radius: 6px;
   border: none;
   cursor: pointer;
@@ -109,6 +109,6 @@ nav a:hover {
 }
 
 .avatar-block img {
-  width: 300px;
+  width: 100px;
   height: auto;
 }
