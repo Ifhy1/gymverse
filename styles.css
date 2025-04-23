@@ -1,0 +1,114 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #1e1f4b, #2c1a47);
+  color: white;
+  min-height: 100vh;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 60px;
+  background: transparent;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: #fff;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #4f80ff;
+}
+
+.btn-join {
+  background: #4f80ff;
+  border: none;
+  padding: 10px 18px;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px 60px;
+  flex-wrap: wrap;
+}
+
+.text-block {
+  max-width: 600px;
+}
+
+.text-block h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.text-block h1 span {
+  color: #4f80ff;
+}
+
+.text-block p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.cta {
+  display: flex;
+  gap: 15px;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 12px 22px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.btn-primary {
+  background: #4f80ff;
+  color: white;
+}
+
+.btn-secondary {
+  background: #2c2c44;
+  color: white;
+  border: 1px solid #4f80ff;
+}
+
+.avatar-block img {
+  width: 300px;
+  height: auto;
+}
